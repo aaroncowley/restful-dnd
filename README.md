@@ -21,5 +21,6 @@ along I will update this github page
 - [x] Store characters in mongo
 - [ ] fetch characters via api
 - [ ] repopulate front end char sheet template with stored character
+- [ ] Code out roll button to auto-generate a character based on class
 - [ ] add users database + auth to allow for different users to use 
 app and add security

@@ -98,9 +98,6 @@ router.post('/upload', function(req, res, next) {
         res.redirect('/');
     });
 
-    /*
-
-    */
 });
 
 module.exports = router;
