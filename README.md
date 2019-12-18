@@ -24,3 +24,5 @@ along I will update these sprints
 - [ ] Code out roll button to auto-generate a character based on class
 - [ ] add users database + auth to allow for different users to use 
 app and add security
+- [ ] convert front end form to react component keeping state as 
+filled out char sheet
