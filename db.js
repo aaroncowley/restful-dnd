@@ -1,4 +1,5 @@
 const db = require('mongoose');
+const Character = require('./models/character');
 
 db.Promise = global.Promise;
 const dbURI = 'mongodb://localhost/characters_dnd';

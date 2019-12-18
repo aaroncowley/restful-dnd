@@ -4,6 +4,10 @@
   <title>Express</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="/stylesheets/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="javascripts/load-char.js"></script>
+
 </head>
 
 <body>
@@ -24,10 +28,10 @@
             <label for="playername">Player Name</label><input name="playername" placeholder="Player McPlayerface">
           </li>
           <li>
-            <label for="race">Race</label><input name="race" placeholder="Half-elf" />
+            <label for="race">Race</label><input id="race" name="race" placeholder="Half-elf" />
           </li>
           <li>
-            <label for="alignment">Alignment</label><input name="alignment" placeholder="Lawful Good" />
+            <label for="alignment">Alignment</label><input id=""name="alignment" placeholder="Lawful Good" />
           </li>
           <li>
             <label for="experiencepoints">Experience Points</label><input name="experiencepoints" placeholder="3240" />
@@ -373,11 +377,11 @@
     </main>
     <div>
       <button class="btn btn-primary" name="action" type="submit" value="Upload">Submit</button>
-      <button class="btn btn-primary" name="action" type="submit" value="Roll">Roll</button>
-      <button class="btn btn-primary" name="action" type="submit" value="Load">Load</button>
+      <button class="btn btn-primary" name="action" value="Roll">Roll</button>
+
     </div>
   </form>
-
+  <button class="btn btn-primary" id="load" name="action" value="Load">Load</button>
 </body>
 
 </html>

@@ -14,13 +14,13 @@ A few other useful features will be incorporated into the application
 such as a dice roller and other nerdy dnd  things I would like to code
 
 
-#### Progress
+#### Sprints Progress
 It is presently a work in progress but as this gets further
-along I will update this github page
+along I will update these sprints
 
-- [x] Store characters in mongo
-- [ ] fetch characters via api
-- [ ] repopulate front end char sheet template with stored character
+- [x] architecture Store characters in mongo
+- [x] repopulate front end char sheet template with stored character
+- [ ] add missing form areas to schema (saving throws etc)
 - [ ] Code out roll button to auto-generate a character based on class
 - [ ] add users database + auth to allow for different users to use 
 app and add security

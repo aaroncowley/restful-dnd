@@ -295,5 +295,5 @@ var charSchema = mongoose.Schema({
     }
 });
 
-module.exports = Character = mongoose.model('Character', charSchema);
+module.exports = mongoose.model('Character', charSchema);
 
